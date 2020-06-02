@@ -14,7 +14,7 @@ module.exports = {
   },
   mode: 'development',
   module: {
-    rules: [{ 
+    rules: [{
         test: /\.css$/, 
         // loader: ExtractTextPlugin.extract('style-loader', 'css-loader') 
         use: [MiniCssExtractPlugin.loader, 'css-loader']
